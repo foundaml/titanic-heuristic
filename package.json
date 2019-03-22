@@ -1,0 +1,25 @@
+{
+  "name": "org.foundaml.examples.titanic",
+  "version": "1.0.0",
+  "description": "An example heuristic for the Kaggle Titanic competition",
+  "main": "titanic.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node titanic.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foundaml/titanic-heuristic.git"
+  },
+  "author": "FoundaML",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/foundaml/titanic-heuristic/issues"
+  },
+  "homepage": "https://github.com/foundaml/titanic-heuristic#readme"
+}
